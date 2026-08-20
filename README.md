@@ -26,9 +26,9 @@ Coursework at RIT is complete. I am finishing the second of two required co-ops 
 | --- | --- | --- |
 | **[Rat Runner](https://github.com/CarterIrish/RatRunner)** | Survival horror in a maze of sewers. I wrote the NavMesh enemy AI and pursuit behavior, binary-serialized save/load, inventory, the door-key puzzle system, and the game state machine. 5-person team. | Unity, C# |
 | **[Vigil](https://github.com/CarterIrish/Vigil)** | A lightweight monitoring dashboard with drag-and-drop widgets, endpoint health polling, auth, and a light/dark theme. A small alternative to a full Grafana stack. | TypeScript, React 19, Express 5, MongoDB, Redis |
+| **[Salesforce Contact Auditor](https://github.com/CarterIrish/salesforce-contact-auditor)** | CLI that audits Salesforce contact exports against the ZoomInfo API to flag employment status, then enriches phone, email, and title by person ID. Throttled to 20 req/s, caches every lookup so re-runs cost nothing in API credits, and writes to new columns so the source export is never clobbered. Clears ~2,900 rows in under five minutes. | TypeScript, Node.js, ZoomInfo API |
 | **[SavePoint API](https://github.com/CarterIrish/savepoint-api)** | REST API for cataloguing a personal game library, written against Node's raw `http` module with no framework, so every status code and header is hand-rolled. | Node.js, vanilla JS, GitHub Actions |
 | **[You've Been Audited](https://github.com/CarterIrish/Youve-Been-Audited)** | Semester-long team game built around a data-structures and algorithms curriculum. 4-person team, full milestone cycle from design through playtesting. | MonoGame, C# |
-| **[Jot](https://github.com/CarterIrish/Jot)** | A small Windows utility that organizes loose Notepad `.txt` files. Written to get more comfortable in C++ outside an engine. | C++ |
 
 ## Tech
 
@@ -63,7 +63,7 @@ Coursework at RIT is complete. I am finishing the second of two required co-ops 
 
 ## Currently
 
-- **Building:** Vigil, working toward a stable widget API and a real plugin surface
+- **Building:** Vigil, working toward a stable widget API and a real plugin surface. Also maintaining the Salesforce Contact Auditor as the data it runs against grows.
 - **Learning:** C++ in Unreal, gameplay networking and replication, Docker
 - **Want to collaborate on:** gameplay systems, tools programming, and small multiplayer prototypes
 
