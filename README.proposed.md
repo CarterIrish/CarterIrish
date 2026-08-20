@@ -75,7 +75,7 @@ Coursework complete. Degree conferred on completion of the second required co-op
 **EchoStor**, Co-op
 First of two required co-op terms.
 
-**Professional cook**, 2 years
+**Head Cook**, 2 years
 Two years on a line is the best scheduling and communication training I have had. Ship on time, call out clearly, keep your station clean.
 
 ## Off the clock
